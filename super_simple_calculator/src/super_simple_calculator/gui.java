@@ -33,7 +33,7 @@ public class gui implements ActionListener{
     
     //GUI CONSTRUCTOR.. intialize instance variables and get gui ready
     public gui(){
-        CalFrame = new JFrame("Simple Calculator Project For Fun");
+        CalFrame = new JFrame("Simple Calculator");
         CalFrame.setResizable(false); //Calculator size cannot be changed.
         
         CalPanel = new JPanel(new FlowLayout()); //using FlowLayout layout manager to set where components are placed

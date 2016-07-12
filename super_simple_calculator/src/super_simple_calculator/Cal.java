@@ -39,7 +39,7 @@ public class Cal {
         throw new Error();
     }
     
-    //
+    //CALCULATEBASIC METHOD.. checks the action the user wants to do and either returns not a number or passes to the BasicCaculate method.
     public Double calculateBasic(BasicMathOperators newMethod, Double num){
         if(method == BasicMathOperators.NORMAL){
             num2 = 0.0;
